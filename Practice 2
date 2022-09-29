@@ -1,0 +1,12 @@
+output=''
+for i in {1..4}
+do
+  output=$output"Happy birthday "
+
+  if [ $i -eq 3 ]
+  then
+    output=$output"dear $1\n"
+  else
+    output=$output"to you\n"
+  fi
+done
